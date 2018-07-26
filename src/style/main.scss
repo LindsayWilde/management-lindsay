@@ -7,6 +7,7 @@ $font-encode: 'Encode Sans';
 $font-encode-cond: 'Encode Sans Condensed';
 
 @import 'base';
-@import 'header-wrapper';
+@import 'header';
 @import 'signin';
 @import 'signup';
+@import 'form-title'
