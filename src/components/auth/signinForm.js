@@ -28,7 +28,7 @@ class SigninForm extends Component {
         />
         <Field
           className="sign-in-form__login"
-          name="lgoin"
+          name="login"
           type="button"
           title="Login"
           component={FormButton}
