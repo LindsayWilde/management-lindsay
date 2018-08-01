@@ -1,5 +1,5 @@
 import {
-    AUTHENTICATED_USER
+    AUTHENTICATE_USER
 } from '../actions/types';
 
 
@@ -10,10 +10,11 @@ const INTIAL_STATE = {
 
 export default function(state = INTIAL_STATE, action) {
     switch (action.type) {
-        case AUTHENTICATED_USER:
+        case AUTHENTICATE_USER:
             const { user } = action.payload;
             return {
                 ...state,
+                authenticated:true,
                 user
             }
         default: return state;
